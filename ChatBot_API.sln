@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot_API", "ChatBot_API\ChatBot_API.csproj", "{C0EE8BD8-F14E-4C4B-BF03-C0ED4CB5F124}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA} = {36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0EE8BD8-F14E-4C4B-BF03-C0ED4CB5F124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EE8BD8-F14E-4C4B-BF03-C0ED4CB5F124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EE8BD8-F14E-4C4B-BF03-C0ED4CB5F124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EE8BD8-F14E-4C4B-BF03-C0ED4CB5F124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A49AD2-6DE6-42DE-B6E6-014E3A6CC5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1DFF85E-16DA-487C-9C64-59FDFF8BA528}
+	EndGlobalSection
+EndGlobal
